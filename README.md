@@ -25,8 +25,8 @@ npm install http-fault
 
 ```
 http.exception.ts        # Abstract base class
-http.exceptions.ts       # All 4xx and 5xx exception classes
-exception-filter.ts      # Framework-agnostic error handler
+exceptions.ts       # All 4xx and 5xx exception classes
+exception.filter.ts      # Framework-agnostic error handler
 ```
 
 ---
