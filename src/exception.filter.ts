@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { HttpException } from "./http.exception";
+import { HttpException } from "./http.exception.js";
 
 // ---------------------------------------------------------------------------
 // Types

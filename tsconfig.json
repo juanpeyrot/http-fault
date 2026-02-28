@@ -1,9 +1,27 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": false,
+    // Compilation target
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
+
+    "removeComments": true,
+    "sourceMap": false,
+    "inlineSourceMap": false,
+
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/*.test.ts", "**/*.spec.ts"]
 }

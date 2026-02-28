@@ -1,0 +1,28 @@
+# Source
+src/
+
+# Config
+tsconfig.json
+tsconfig*.json
+.eslintrc*
+.prettierrc*
+biome.json
+
+# Tests
+**/*.test.ts
+**/*.spec.ts
+__tests__/
+coverage/
+
+# Docs & meta
+*.md
+!README.md
+CHANGELOG*
+LICENSE*
+
+# Misc
+.git/
+.github/
+.vscode/
+.env*
+*.log

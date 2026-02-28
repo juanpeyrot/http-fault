@@ -2,7 +2,7 @@
 // * http-fault: A library for creating and handling HTTP exceptions in TypeScript *
 // ***************************************************************************************
 
-import { HttpException } from "./http.exception";
+import { HttpException } from "./http.exception.js";
 
 // ***************************************************************************************
 // CLIENT EXCEPTIONS (4xx)
