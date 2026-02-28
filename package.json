@@ -1,6 +1,6 @@
 {
   "name": "http-fault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, extensible HTTP exceptions with proper status codes and framework-agnostic error handling for Node.js.",
   "type": "module",
   "main": "./dist/index.js",
