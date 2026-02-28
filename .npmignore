@@ -15,8 +15,6 @@ __tests__/
 coverage/
 
 # Docs & meta
-*.md
-!README.md
 CHANGELOG*
 LICENSE*
 
