@@ -1,15 +1,45 @@
 {
   "name": "http-fault",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Lightweight, extensible HTTP exceptions with proper status codes and framework-agnostic error handling for Node.js.",
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "http",
+    "http-errors",
+    "http-exceptions",
+    "errors",
+    "exceptions",
+    "api-errors",
+    "express",
+    "node",
+    "typescript",
+    "middleware",
+    "status-codes",
+    "rest",
+    "backend"
+  ],
+  "author": "Juan Peyrot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanpeyrot/http-fault"
+  },
+  "bugs": {
+    "url": "https://github.com/juanpeyrot/http-fault/issues"
+  },
+  "homepage": "https://github.com/juanpeyrot/http-fault#readme",
+  "sideEffects": false,
   "devDependencies": {
     "@types/node": "^25.3.3",
     "typescript": "^5.9.3"
